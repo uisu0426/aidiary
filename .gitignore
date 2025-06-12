@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.Python
+
+# Django
+*.sqlite3
+db.sqlite3
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environments
+.env
+.env.*
+
+# Migrations
+**/migrations/
+!*/migrations/__init__.py
+
+# Byte-compiled files
+*.pyc
+
+# Logs
+*.log
+
+# IDE
+.idea/

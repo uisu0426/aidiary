@@ -1,0 +1,34 @@
+
+{
+  "info": {
+    "_postman_id": "f4b4e416-1111-42ee-9999-fake-id",
+    "name": "AIDiary API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Generate Diary",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"input\": \"오늘은 친구랑 한강에서 산책하고 떡볶이를 먹었어. 날씨도 맑고 기분 좋았어.\"\n}"
+        },
+        "url": {
+          "raw": "http://127.0.0.1:8000/api/diary/",
+          "protocol": "http",
+          "host": ["127", "0", "0", "1"],
+          "port": "8000",
+          "path": ["api", "diary", ""]
+        }
+      },
+      "response": []
+    }
+  ]
+}

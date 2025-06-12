@@ -1,0 +1,38 @@
+{
+  "info": {
+    "name": "MindLog_API_Collection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Generate Diary",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"input\": \"\\uc624\\ub298\\uc740 \\uce5c\\uad6c\\ub791 \\ud55c\\uac15\\uc5d0\\uc11c \\uc0b0\\ucc45\\ud558\\uace0 \\ub5a1\\ubcf6\\uc774\\ub97c \\uba39\\uc5c8\\uc5b4. \\ub0a0\\uc528\\ub3c4 \\ub9d1\\uace0 \\uae30\\ubd84 \\uc88b\\uc558\\uc5b4.\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8000/api/prompt/generate/",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "prompt",
+            "generate"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
